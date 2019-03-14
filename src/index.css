@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes");
+
+#banner{
+  margin: 0;
+  background-color: rgba(110, 11, 240, 0.424);
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  top: 0;
+  padding-top: 0;
+  position: relative;
+  margin: 0;
+}
+
+h1{
+  margin:0;
+  color: white;
+  font-family: "Great Vibes";
+  font-size: 70px;
+}
+
+html, body{
+  margin:0;
+  padding:0;
+}
+
+#mySidenav a {
+  position: absolute;
+  left: -100px; 
+  transition: 0.3s; 
+  width: 100px; 
+  text-decoration: none; 
+  font-size: 40px;
+  color: white; 
+  border-radius: 0 5px 5px 0;
+  padding: 30px; 
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#login {
+  top: 150px;
+  background-color: rgb(151, 3, 189);
+  height: 50px;
+  line-height: 35px;
+  font-family: "Great Vibes";
+  
+}
+
+#history {
+  top: 300px;
+  background-color: rgb(189, 3, 158);
+  height: 50px;
+  line-height: 30px;
+  font-family: "Great Vibes";
+}
+
+#list {
+  top: 450px;
+  background-color: #e71891;
+  height: 70px;
+  line-height: 35px;
+  line-break: auto;
+  font-family: "Great Vibes";
+}
+
+img{
+  width: 700px;
+  height: 500px;
+  border-radius: 40px;
+  
+}
+
+form{
+  margin-top: 43%;
+  text-align: center;
+  
+}
+
+input{
+  border-radius: 30px;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  font-family: "Great Vibes";
+  background-color: rgba(110, 11, 240, 0.424);
+  color: white;
+  border: 10px ridge rgb(151, 3, 189);
+}
